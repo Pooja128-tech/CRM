@@ -1,0 +1,25 @@
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/target/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+
+# Logs
+*.log
+hs_err_pid*
+
+# IDE files
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
